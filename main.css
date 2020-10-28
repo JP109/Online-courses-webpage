@@ -11274,6 +11274,16 @@ p {
   margin-top: 30px;
 }
 
+.section5 .desc .time {
+  background-color: white;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .section5 .desc p {
   margin-bottom: 30px;
 }
