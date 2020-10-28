@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/@splidejs/dist/css/splide.min.css">
+    <script src="path-to-the-file/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+</head>
+<body>
+    <div id="image-slider" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="babe.jpg">
+                </li>
+                <li class="splide__slide">
+                    <img src="babe.jpg">
+                </li>
+                <li class="splide__slide">
+                    <img src="babe.jpg">
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '#image-slider', {perPage: 2,rewind : true,} ).mount();
+        } );
+        </script>
+</body>
+</html>
